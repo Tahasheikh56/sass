@@ -1,0 +1,24 @@
+$primary:rgb(0, 255, 191);
+$secondary:rgb(0, 117, 88);
+$color:black;
+
+@mixin flexmera{
+    justify-content: space-around;
+    display: flex;
+}
+
+@mixin sty($font,$color,$ffamily){
+    font-size: $font;
+    color: $color;
+    font-family: $ffamily;
+    text-align: center;
+}
+
+@mixin size($width,$height,$tc){
+    width: $width;
+    height: $height;
+    background-color: $secondary;
+    font-size: 50px;
+    color: $color;
+    text-align: $tc;
+}

@@ -1,0 +1,27 @@
+@import "var.scss";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ 
+.row{
+    width: 100%;
+    height: 400px;
+    background-color:$secondary;
+
+    .bg{
+        width: 100%;
+        height: 200px;
+        background-color: $primary;
+        color: $fcolor;
+        font-size: $main-h1;
+        
+        .ff{
+            margin: 10px;
+            font-size: $body-f;
+            font-weight: 700;
+        }
+    }
+
+}
